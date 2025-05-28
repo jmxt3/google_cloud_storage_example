@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 .env
-codexlm-d053adb00174.json
+*.json
