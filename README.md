@@ -52,6 +52,16 @@ A comprehensive Python utility for managing files and data in Google Cloud Stora
    pip install google-cloud-storage python-dotenv
    ```
 
+   **Or, using the [UV package manager](https://github.com/astral-sh/uv):**
+
+   ```bash
+   uv pip install --upgrade -r requirements.txt
+   ```
+   Or, if your dependencies are managed in `pyproject.toml` (recommended):
+   ```bash
+   uv pip install --upgrade -r pyproject.toml
+   ```
+
 2. **Set up authentication:**
    - Create a `.env` file in the project root
    - Add your credentials path:
